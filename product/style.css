@@ -1,0 +1,87 @@
+.body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafd;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #6c5ce7, #a29bfe);
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #a29bfe, #6c5ce7);
+}
+
+.modal-header {
+  background-color: #6c5ce7;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.modal-body {
+  padding: 20px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.h5.card-title {
+  font-size: 1.25rem;
+}
+
+.p.card-text {
+  font-size: 0.9rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.footer {
+  background-color: #6c5ce7;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.carousel-item-img {
+  transition: transform 0.3s ease;
+}
+
+.carousel-item-img :hover {
+    transform: scale(1.05);
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    accent-color: #6c5ce7;
+  }
